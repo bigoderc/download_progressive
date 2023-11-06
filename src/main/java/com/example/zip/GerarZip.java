@@ -72,7 +72,7 @@ public class GerarZip {
         }
         
         String directory = diretorio.toString();
-        String download_name = "mlaudos.zip";
+        String download_name = "mlaudos";
         if (ids != null && !ids.isEmpty()) {
             // Divida a string de IDs em um array
             String[] idArray = ids.split(",");
